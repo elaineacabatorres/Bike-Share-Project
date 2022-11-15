@@ -1,6 +1,6 @@
 # Bike-Share-Project
 
- Project overview:
+Project overview:
 In this project, we are going to utilize Python and descriptive statistics concepts to explore data associated with bike share systems for three big cities in the United States—Chicago, New York City, and Washington. 
 
 We will use python to answer some interesting basic statistical questions about the data.
