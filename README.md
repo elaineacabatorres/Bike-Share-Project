@@ -1,26 +1,66 @@
 # Bike-Share-Project
 
-<b>Project overview:</b>
+**Overview**
+Bike Share Data
+Over the past decade, bicycle-sharing systems have been growing in number and popularity in cities across the world. Bicycle-sharing systems allow users to rent bicycles on a very short-term basis for a price. This allows people to borrow a bike from point A and return it at point B, though they can also return it to the same location if they'd like to just go for a ride. Regardless, each bike can serve several users per day.
 
-In this project, we are going to utilize Python and descriptive statistics concepts to explore data associated with bike share systems for three big cities in the United States—Chicago, New York City, and Washington. 
+Thanks to the rise in information technologies, it is easy for a user of the system to access a dock within the system to unlock or return bicycles. These technologies also provide a wealth of data that can be used to explore how these bike-sharing systems are used.
 
-We will use python to answer some interesting basic statistical questions about the data.
+In this project, you will use data provided by Motivate, a bike share system provider for many major cities in the United States, to uncover bike share usage patterns. You will compare the system usage between three large cities: Chicago, New York City, and Washington, DC.
 
-Moreover, we will provide a user interactive experience in the terminal to ask about and represent these statistics.
+**The Datasets**
 
-<b>Dataset overview:</b>
+Randomly selected data for the first six months of 2017 are provided for all three cities. All three of the data files contain the same core six (6) columns:
 
-In this project, we will work on data provided by Motivate, One of the bike sharing system s providers for many major cities in the United States of America, to uncover bike share usage patterns. 
+Start Time (e.g., 2017-01-01 00:07:57)
+End Time (e.g., 2017-01-01 00:20:53)
+Trip Duration (in seconds - e.g., 776)
+Start Station (e.g., Broadway & Barry Ave)
+End Station (e.g., Sedgwick St & North Ave)
+User Type (Subscriber or Customer)
+The Chicago and New York City files also have the following two columns:
 
-We are going to compare the system usage between three large cities: Chicago, New York City, and Washington.
+Gender
+Birth Year
 
-The data is randomly selected for the first six months of 2017 are provided for all three cities.
+![image](https://user-images.githubusercontent.com/114247045/207664288-3d5cd6da-2776-4c16-8d81-75f92bb7fcdb.png)
 
-Of course You will need the three city dataset files:
+Data for the first 10 rides in the new_york_city.csv file
+
+The original files are much larger and messier, and you don't need to download them, but they can be accessed here if you'd like to see them (Chicago, New York City, Washington). These files had more columns and they differed in format in many cases. Some data wrangling has been performed to condense these files to the above core six columns to make your analysis and the evaluation of your Python skills more straightforward.
+
+Statistics Computed
+You will learn about bike share use in Chicago, New York City, and Washington by computing a variety of descriptive statistics. In this project, you'll write code to provide the following information:
+
+#### 1 Popular times of travel (i.e., occurs most often in the start time)
+
+most common month
+most common day of week
+most common hour of day
+
+#### 2 Popular stations and trip
+
+most common start station
+most common end station
+most common trip from start to end (i.e., most frequent combination of start station and end station)
+
+#### 3 Trip duration
+
+total travel time
+average travel time
+
+#### 4 User info
+
+counts of each user type
+counts of each gender (only available for NYC and Chicago)
+earliest, most recent, most common year of birth (only available for NYC and Chicago)
+
+## The Files
+To answer these questions using Python, you will need to write a Python script. To help guide your work in this project, a template with helper code and comments is provided in a bikeshare.py file, and you will do your scripting in there also. You will need the three city dataset files too:
 
 chicago.csv
-
 new_york_city.csv
-
 washington.csv
+
+In this project, you will make use of Python to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. You will write code to import the data and answer interesting questions about it by computing descriptive statistics. You will also write a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
 
